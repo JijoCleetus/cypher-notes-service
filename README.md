@@ -1,4 +1,5 @@
 # node-rest-api-starter
 
-# clone the repository
-# Run npm install
+## Please follow below steps
+#### clone the repository
+#### Run npm install
