@@ -27,7 +27,8 @@ app.get('/', (req, res) => {
 
 //db connect
 mongoose.connect(
-    process.env.DB_CONNECTION,
+    // process.env.DB_CONNECTION,
+    'mongodb://cypheradmin:c$yPHER0>>&@ds155299.mlab.com:55299/cyphernote',
     { useNewUrlParser: true, useUnifiedTopology: true },
     () => {
         console.log("connected to db")
